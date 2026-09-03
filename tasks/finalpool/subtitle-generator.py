@@ -1,6 +1,6 @@
-class videotrimmer:
+class subtitlegenerator:
     def __init__(self):
-        self.name = "video-trimmer"
+        self.name = "subtitle-generator"
         self.developer = "haoze"
         self.status = "implementing"
     
@@ -11,5 +11,5 @@ class videotrimmer:
         return True
 
 if __name__ == "__main__":
-    task = videotrimmer()
+    task = subtitlegenerator()
     print(f"Task: {task.name}, Developer: {task.developer}")
