@@ -1,6 +1,6 @@
-class weeklyexpensetracker:
+class canvasgradeautomation:
     def __init__(self):
-        self.name = "weekly-expense-tracker"
+        self.name = "canvas-grade-automation"
         self.developer = "jl_dev"
         self.status = "implementing"
     
@@ -11,5 +11,5 @@ class weeklyexpensetracker:
         return True
 
 if __name__ == "__main__":
-    task = weeklyexpensetracker()
+    task = canvasgradeautomation()
     print(f"Task: {task.name}, Developer: {task.developer}")

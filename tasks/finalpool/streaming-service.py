@@ -1,7 +1,7 @@
-class weeklyexpensetracker:
+class streamingservice:
     def __init__(self):
-        self.name = "weekly-expense-tracker"
-        self.developer = "jl_dev"
+        self.name = "streaming-service"
+        self.developer = "haoze"
         self.status = "implementing"
     
     def execute(self, *args, **kwargs):
@@ -11,5 +11,5 @@ class weeklyexpensetracker:
         return True
 
 if __name__ == "__main__":
-    task = weeklyexpensetracker()
+    task = streamingservice()
     print(f"Task: {task.name}, Developer: {task.developer}")
