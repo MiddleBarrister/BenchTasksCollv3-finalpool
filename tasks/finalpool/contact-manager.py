@@ -1,6 +1,6 @@
-class calendarsync:
+class contactmanager:
     def __init__(self):
-        self.name = "calendar-sync"
+        self.name = "contact-manager"
         self.developer = "junteng_dev"
         self.status = "implementing"
     
@@ -11,5 +11,5 @@ class calendarsync:
         return True
 
 if __name__ == "__main__":
-    task = calendarsync()
+    task = contactmanager()
     print(f"Task: {task.name}, Developer: {task.developer}")
